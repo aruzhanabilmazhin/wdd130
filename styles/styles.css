@@ -4,7 +4,10 @@
     box-sizing: border-box;
   }
   
-  
+  body {
+font-size: 16px;
+font-family: Roboto, Arial, sans-serif;
+  }
   
   nav {
       background-color: steelblue;
@@ -17,6 +20,7 @@
   }
   h1 {
       color:steelblue;
+      padding: 5rem;
   }
   img{
       width: 120px;
@@ -29,8 +33,20 @@
       padding: 0;
   }
   main{
-      max-width: 840px;
+      max-width: 640px;
   }
+  main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid slateblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right ;
+    margin:0 0 1rem 1rem ;
+}
+p {
+    margin: 1rem;
+}
   aside {
       width: 20cm;
       margin: 1cm;
@@ -42,7 +58,7 @@
       position: relative;
   }
   aside img {
-      width:200px;
+      width: 150px;
       height: auto;
   }
   aside h2 {
@@ -50,15 +66,7 @@
       top: 60px;
       left: 200px;
   }
-  main img {
-      width: 150px;
-      height: auto;
-      border: 1px solid slateblue;
-      padding: 2px;
-      box-shadow: 0 0 30px gray;
-      float: right ;
-      margin:0 0 1rem 1rem ;
-  }
+ 
   footer {
       margin-top: 15px;
       border-top: 1px solid #000;
@@ -72,4 +80,8 @@
       padding: 1rem;
       background-color: azure;
       color: #000;
+  }
+
+  .indent {
+    padding-left: 1rem;
   }
