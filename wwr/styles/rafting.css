@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 :root{
     --primary-color: #f7ef81;
     --secondary-color: #bcabae; 
     --accent-color: #4a7856;
     --text-color: #352208;
 
-    --heading-font: Roboto, serif;
-    --paragraph-font: Roboto, serif;
+    --heading-font: 'Lato', sans-serif;
+    --paragraph-font: 'Lato', sans-serif;
 }
 h1, h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     margin: 1rem 0;
     color: var(--text-color);
@@ -21,7 +22,7 @@ h2 {
     font-size: 2rem;
 }
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     line-height: 1.5;
     color: var(--text-color);
@@ -32,7 +33,15 @@ p {
     color: var(--text-color);
   }
   
+  .hero img {
 
+    display: block;
+  
+    width: 100%;
+  
+    height: auto;
+  
+  }
   body {
     max-width: 960px;
     margin: 0 auto; 

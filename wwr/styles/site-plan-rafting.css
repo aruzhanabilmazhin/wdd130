@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 
 :root {
     --primary-color: #f7ef81;
@@ -6,8 +7,8 @@
     --accent1-color: #4a7856;
     --accent2-color: #352208;
 
-    --heading-font: Roboto, serif;
-    --paragraph-font: Roboto, serif;
+    --heading-font: Lato, serif;
+    --paragraph-font: Lato, serif;
 
 
     --nav-background-color: #484041;
