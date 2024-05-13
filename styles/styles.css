@@ -37,22 +37,26 @@ font-family: Roboto, Arial, sans-serif;
   
 
   .grid {
-    max-width: 840px; 
-    margin: 0 auto;  
+    max-width: 840px;
+    margin: 0 auto;
     display: grid;
-    grid-gap: 10px;  
+    grid-gap: 10px;
+    /* Added styles for grid layout */
+    grid-template-columns: 1fr 2fr; /* Defines two columns: first with 1fr flex unit, second with 2fr flex unit */
+    align-items: center;
   }
   
 
   aside {
-    width: 20cm; 
-    margin: 1cm;
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2; /* Spans across the first column */
+    grid-row: 1/2;   /* Spans across the first row */
     border: 1px solid rgba(0, 8, 0, 0.2);
     padding: 1cm;
     background-color: #eeeeee;
     color: #333333;
     text-align: center;
-    position: relative;
   }
   
   aside img {
