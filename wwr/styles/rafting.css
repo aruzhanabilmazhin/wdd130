@@ -1,7 +1,6 @@
-/* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
-/* Define Root Variables */
+
 :root {
   --primary-color: #f7ef81; /* Adjust as needed */
   --secondary-color: #bcabae; /* Adjust as needed */
@@ -12,7 +11,7 @@
   --paragraph-font: 'Lato', sans-serif;
 }
 
-/* Global Styles */
+
 body {
   max-width: 960px;
   margin: 0 auto;
@@ -20,7 +19,7 @@ body {
   color: var(--text-color);
 }
 
-/* Header Styles */
+
 .header {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -29,12 +28,11 @@ body {
 }
 
 .header img {
-  /* Adjust width and height for your logo */
   width: 150px;
   height: auto;
 }
 
-/* Navigation Styles */
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -43,14 +41,14 @@ body {
 .navigation a {
   text-decoration: none;
   color: var(--text-color);
-  padding: 0.5rem 1rem; /* Adjust padding if needed */
+  padding: 0.5rem 1rem; 
 }
 
 .navigation a:hover {
-  color: #333; /* Change link color on hover */
+  color: #333; 
 }
 
-/* Hero Section Styles */
+
 .hero {
   text-align: center;
   padding: 2rem;
@@ -68,9 +66,9 @@ body {
 }
 
 .hero h2 {
-  font-size: 1.8rem; /* Adjusted size for company motto */
-  font-weight: 400; /* Adjusted weight for motto */
-  margin-bottom: 0.5rem; /* Reduced margin for motto */
+  font-size: 1.8rem; 
+  font-weight: 400; 
+  margin-bottom: 0.5rem; 
   color: var(--text-color);
 }
 
@@ -81,7 +79,7 @@ body {
   color: var(--text-color);
 }
 
-/* About Us Section Styles */
+
 .about-us {
   padding: 2rem;
 }
@@ -96,7 +94,7 @@ body {
   text-align: justify;
 }
 
-/* Adventures Section Styles */
+
 .adventures {
   display: flex;
   flex-wrap: wrap;
@@ -123,7 +121,7 @@ body {
   color: var(--text-color);
 }
 
-/* Footer Styles */
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -136,7 +134,7 @@ body {
 }
 
 .footer .sociallinks img {
-  width: 20px; /* Adjust image size as needed */
+  width: 20px; 
   height: auto;
-  margin: 0 0.5rem; /* Add some margin between icons */
+  margin: 0 0.5rem; 
 }
