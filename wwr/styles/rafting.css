@@ -1,48 +1,142 @@
+/* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
-:root{
-    --primary-color: #f7ef81;
-    --secondary-color: #bcabae; 
-    --accent-color: #4a7856;
-    --text-color: #352208;
+/* Define Root Variables */
+:root {
+  --primary-color: #f7ef81; /* Adjust as needed */
+  --secondary-color: #bcabae; /* Adjust as needed */
+  --accent-color: #4a7856; /* Adjust as needed */
+  --text-color: #352208; /* Adjust as needed */
 
-    --heading-font: 'Lato', sans-serif;
-    --paragraph-font: 'Lato', sans-serif;
+  --heading-font: 'Lato', sans-serif;
+  --paragraph-font: 'Lato', sans-serif;
 }
-h1, h2 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    margin: 1rem 0;
-    color: var(--text-color);
-}
-h1 {
-    font-size: 2.5rem
-}
-h2 {
-    font-size: 2rem;
-}
-p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-    color: var(--text-color);
-    margin: 0.5rem 0;
-  }
-  a.sociallinks {
-    text-decoration: none;
-    color: var(--text-color);
-  }
-  
-  .hero img {
 
-    display: block;
-  
-    width: 100%;
-  
-    height: auto;
-  
-  }
-  body {
-    max-width: 960px;
-    margin: 0 auto; 
-  }
+/* Global Styles */
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: var(--paragraph-font);
+  color: var(--text-color);
+}
+
+/* Header Styles */
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header img {
+  /* Adjust width and height for your logo */
+  width: 150px;
+  height: auto;
+}
+
+/* Navigation Styles */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 0.5rem 1rem; /* Adjust padding if needed */
+}
+
+.navigation a:hover {
+  color: #333; /* Change link color on hover */
+}
+
+/* Hero Section Styles */
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.hero h2 {
+  font-size: 1.8rem; /* Adjusted size for company motto */
+  font-weight: 400; /* Adjusted weight for motto */
+  margin-bottom: 0.5rem; /* Reduced margin for motto */
+  color: var(--text-color);
+}
+
+.hero p {
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0.5rem 0;
+  color: var(--text-color);
+}
+
+/* About Us Section Styles */
+.about-us {
+  padding: 2rem;
+}
+
+.about-us h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.about-us p {
+  text-align: justify;
+}
+
+/* Adventures Section Styles */
+.adventures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.adventure-item {
+  margin: 0.5rem;
+}
+
+.adventure-item figure {
+  margin: 0;
+}
+
+.adventure-item img {
+  width: 100%;
+  height: auto;
+}
+
+.adventure-item figcaption {
+  text-align: center;
+  font-style: italic;
+  color: var(--text-color);
+}
+
+/* Footer Styles */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.footer .sociallinks {
+  display: flex;
+}
+
+.footer .sociallinks img {
+  width: 20px; /* Adjust image size as needed */
+  height: auto;
+  margin: 0 0.5rem; /* Add some margin between icons */
+}
